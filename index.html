@@ -1,12 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grand Luxury Christmas</title>
+    
+    <title>给你的圣诞惊喜 🎄</title>
+
+    <meta property="og:title" content="来自韩杰的圣诞贺卡">
+    <meta property="og:description" content="里面藏着我们的 12 张珍贵回忆，点开看看吧！">
+    
+    <style>
+      body {
+        margin: 0;
+        background-color: #050505;
+        /* 防止手机端橡皮筋滚动效果 */
+        overflow: hidden; 
+        touch-action: none;
+      }
+    </style>
   </head>
-  <body style="margin: 0; background-color: #050505; overflow: hidden;">
+  <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+
+    <script type="module" src="src/main.tsx"></script>
   </body>
 </html>
